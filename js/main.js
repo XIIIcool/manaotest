@@ -78,7 +78,7 @@ $(document).ready(function(){
                             success: function( response ) {
                                  $('.form-validator-auth').html(response.text);
                                if(response.status == 'OK'){
-                                //   location.reload();
+                                   location.reload();
                                }
                             }
                         })
